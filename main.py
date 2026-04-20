@@ -19,3 +19,30 @@ def Annual_Compd_Intrst(P, r, n, t):
         return "Invalid input"
 
     return P * (1 + r / n) ** (n * t)
+
+def pow(x, y):
+    """
+    Name: pow
+    Purpose: Calculates x raised to the power y
+    Parameters:
+        x(float or int): base
+        y(int): exponent
+    Return:
+        float or int: x ** y
+    """
+ 
+    try:
+       if y == 0:
+         return 1
+    
+       result = 1
+       abs_y = abs(y)
+       for z in range(abs_y):
+         result *= x
+    
+       if y < 0:
+         return 1 / result
+       return result
+    except ValueError:
+        return "Invalid input"
+
