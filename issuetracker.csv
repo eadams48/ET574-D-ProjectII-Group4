@@ -4,3 +4,4 @@ ID,Type,Commit #,Status,description,reporter,asignee,Due,Created,Resolved,Notes
 3,Task ,9a7e51d ,closed,update README,,eadams48,4/19/2026,4/24/2026,,
 4,Task ,28aadc4 ,closed,Issue Tracker Update (ID 1 -3),,eadams48,4/19/2026,4/24/2026,,
 5,Task ,839c93d ,closed,Annual Compound Interest Rate Function,,eadams48,4/19/2026,4/24/2026,,
+6,Task,TBD,closed,Added factorial and area_of_circle functions,Imad Fuad,Imad Fuad,4/21/2026,4/21/2026,4/21/2026,
