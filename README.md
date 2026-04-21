@@ -5,15 +5,15 @@ Group Members:
 2.Imad Fuad
 
 Fuctions:
-Power(x) - Imad Fuad
-Area_of_circle(r) - Imad Fuad
+factorial(x) - Imad Fuad
+area_of_circle(r) - Imad Fuad
 
 Annual_Compd_Intrst - Ebony Adams
 pow(x,y) - Ebony Adams
 
 Test Cases:
-test_Power(x) - Ebony Adams
-test_Area_of_circle(r) - Ebony Adams
+test_factorial(x) - Ebony Adams
+test_area_of_circle(r) - Ebony Adams
 
 test_Annual_Compd_Intrst - Imad Fuad
 test_pow(x,y) - Imad Fuad
