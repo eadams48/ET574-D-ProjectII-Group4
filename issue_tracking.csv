@@ -10,3 +10,4 @@ ID,Type,Commit #,Status,description,reporter,asignee,Due,Created,Resolved,Notes
 9,Task,5fcc06d,closed,Renamed main.py to my_math.py,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
 10,Task,3a0e016,closed,Renamed issuetracker.csv to issue_tracking.csv,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
 11,Task,999a578,closed,Updated test_math.py import from main to my_math,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
+12,Task,1f5257f,closed,Fixed expected value in Annual_Compd_Intrst test,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
