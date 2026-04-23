@@ -1,5 +1,5 @@
 import unittest
-from main import Annual_Compd_Intrst, pow
+from my_math import Annual_Compd_Intrst, pow
 
 
 class TestMathFunctions(unittest.TestCase):
