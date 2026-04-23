@@ -8,3 +8,4 @@ ID,Type,Commit #,Status,description,reporter,asignee,Due,Created,Resolved,Notes
 7,Task,0484bad,closed,Updated README with correct function ownership and test assignments,Imad Fuad,Imad Fuad,4/21/2026,4/21/2026,4/21/2026,
 8,Task,950d7b4,closed,Added test cases for pow and Annual_Compd_Intrst,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
 9,Task,5fcc06d,closed,Renamed main.py to my_math.py,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
+10,Task,3a0e016,closed,Renamed issuetracker.csv to issue_tracking.csv,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
