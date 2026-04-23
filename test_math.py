@@ -14,8 +14,7 @@ class TestMathFunctions(unittest.TestCase):
         self.assertEqual(pow(2, -2), 0.25)
 
     def test_annual_compd_intrst_normal(self):
-        self.assertAlmostEqual(Annual_Compd_Intrst(1000, 0.05, 2, 2), 1104.486101181412)
-
+        self.assertAlmostEqual(Annual_Compd_Intrst(1000, 0.05, 2, 2), 1103.8128906249995)
     def test_annual_compd_intrst_edge(self):
         self.assertEqual(Annual_Compd_Intrst(1000, 0.05, 2, 0), 1000)
 
