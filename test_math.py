@@ -14,11 +14,11 @@ class TestMyMathFunctions(unittest.TestCase):
             area_of_circle(-1)
         with self.assertRaises((TypeError, ValueError)):
             area_of_circle("2") 
-    
+
     def test_area_of_circle_small_radius(self):
         self.assertAlmostEqual(area_of_circle(0.1), 0.03141592653589793)  # π * 0.1²
-   
-   
+ 
+
     # ----- factorial -----
     def test_factorial_basic(self):
         self.assertEqual(factorial(0), 1)
@@ -32,7 +32,7 @@ class TestMyMathFunctions(unittest.TestCase):
             factorial(3.5)        
         with self.assertRaises((TypeError, ValueError)):
             factorial("7") 
-    
+
     def test_factorial_large_n(self):
         self.assertEqual(factorial(15), 1307674368000)
 
