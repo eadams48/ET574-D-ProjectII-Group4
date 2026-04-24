@@ -18,5 +18,5 @@ ID,Type,Commit #,Status,description,reporter,asignee,Due,Created,Resolved,Notes
 17,Task,1f5257f,closed,Fixed expected value in Annual_Compd_Intrst test,Imad Fuad,Imad Fuad,4/23/2026,4/23/2026,4/23/2026,
 18,Issue,6f8da6f,closed,Merge Duplicate Files,eadams48,eadams48,4/22/2026,4/24/2026,,
 19,Issue,,closed,Area of a circle function Failed Test,eadams48,eadams48,4/24/2026,4/24/2026,Code edited to raise error rather than print string,
-20,Issue,,closed,Factorial function Failed Test,eadams48,eadams48,4/24/2026,4/24/2026,Code edited to raise error rather than print string,
-21,Task,,closed, Final Cleanup,,eadams48,4/24/2026,4/24/2026,,Deleting sample project files and duplicate code
+20,Issue,4ff0906,closed,Factorial function Failed Test,eadams48,eadams48,4/24/2026,4/24/2026,Code edited to raise error rather than print string,
+21,Task,84d6ab8,closed, Final Cleanup,,eadams48,4/24/2026,4/24/2026,,Deleting sample project files and duplicate code
