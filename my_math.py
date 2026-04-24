@@ -1,7 +1,4 @@
-#Create two math functions not built into python
-#1st Function - Compounding Annual Interest Rate
-#2nd Fucntion - Volume of a pyramid
-
+#-------Annual_Compd_Intrst------
 def Annual_Compd_Intrst(P, r, n, t):
     """
     Name: compound_interest
@@ -19,6 +16,9 @@ def Annual_Compd_Intrst(P, r, n, t):
         return "Invalid input"
 
     return P * (1 + r / n) ** (n * t)
+
+
+#------factorial------
 def factorial(x):
     """
     Name: factorial
@@ -29,15 +29,16 @@ def factorial(x):
         int: factorial of x
     """
 
-    if not isinstance(x, int) or x < 0:
-        return "Invalid input"
-
+    if not isinstance(x, int):
+        raise TypeError("Input must be a non-negative integer")
+    if x < 0:
+        raise ValueError("Input must be a non-negative integer")
     result = 1
     for i in range(1, x + 1):
         result = result * i
     return result
 
-
+#-------area_of_circle------
 def area_of_circle(r):
     """
     Name: area_of_circle
@@ -47,13 +48,18 @@ def area_of_circle(r):
     Return:
         float: area of the circle
     """
-
+    # Check if r is a valid type
+    if not isinstance(r, (int, float)) or isinstance(r, bool):
+        raise TypeError("Radius must be a number")
+    
+    # Check if r is negative
     if r < 0:
-        return "Invalid input"
-
+        raise ValueError("Radius cannot be negative")
+    
     pi = 3.14159
     return pi * r * r
-
+    
+#--------pow--------
 def pow(x, y):
     """
     Name: pow
